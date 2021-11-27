@@ -24,3 +24,7 @@ git push -u origin main
 git remote add origin https://github.com/homeinquisitor/test.git
 git branch -M main
 git push -u origin main
+
+After setting up origin on the git cloud. u add, commit on local.
+and to push to the repository on the cloud. use
+git push
