@@ -2,3 +2,7 @@ here we wanna
 pull files 
 from the repository 
 to the local(desktop)
+if you make changes on the cloud u cannot commit on your local
+you have to pull( download) using the 
+git pull origin master (or branch u working with)
+and you are good to go.
