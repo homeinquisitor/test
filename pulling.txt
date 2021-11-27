@@ -6,3 +6,6 @@ if you make changes on the cloud u cannot commit on your local
 you have to pull( download) using the 
 git pull origin master (or branch u working with)
 and you are good to go.
+
+make whatever changes, save, add , commit and push
+git push
