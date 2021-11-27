@@ -5,3 +5,4 @@ git commit -m "[description of change]"
 git status
 git checkout [name of branch]
 git checkout -b [creates a new one if it don't exist]
+git merge master [making new files availer on new branch. make sure u are on new branch]
