@@ -7,3 +7,4 @@ git checkout [name of branch]
 git checkout -b [creates a new one if it don't exist]
 
 i worked on master but not showing here
+testing my remeberance once again
