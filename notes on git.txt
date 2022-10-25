@@ -5,5 +5,31 @@ git commit -m "[description of change]"
 git status
 git checkout [name of branch]
 git checkout -b [creates a new one if it don't exist]
+<<<<<<< HEAD
 
 i worked on master but not showing here
+=======
+git merge master [making new files availer on new branch. make sure u are on new branch]
+   NOTES
+   …or create a new repository on the command line
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/homeinquisitor/test.git
+git push -u origin (master or the another branch)
+
+git remote add origin https://github.com/homeinquisitor/test.git
+git branch -M main
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/homeinquisitor/test.git
+git branch -M main
+git push -u origin master ( or another branch depending)
+
+After setting up origin on the git cloud. u add, commit on local.
+and to push to the repository on the cloud. use
+git push
+>>>>>>> 0b39142fdb1e30cd31fa4a72015a440e705c7e83
